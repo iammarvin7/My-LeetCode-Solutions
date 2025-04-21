@@ -7,4 +7,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0038-count-and-say](https://github.com/iammarvin7/My-LeetCode-Solutions/tree/master/0038-count-and-say) |
+## Array
+|  |
+| ------- |
+| [2249-count-the-hidden-sequences](https://github.com/iammarvin7/My-LeetCode-Solutions/tree/master/2249-count-the-hidden-sequences) |
+## Prefix Sum
+|  |
+| ------- |
+| [2249-count-the-hidden-sequences](https://github.com/iammarvin7/My-LeetCode-Solutions/tree/master/2249-count-the-hidden-sequences) |
 <!---LeetCode Topics End-->
