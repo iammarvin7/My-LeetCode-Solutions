@@ -11,8 +11,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2249-count-the-hidden-sequences](https://github.com/iammarvin7/My-LeetCode-Solutions/tree/master/2249-count-the-hidden-sequences) |
+| [3785-find-the-number-of-copy-arrays](https://github.com/iammarvin7/My-LeetCode-Solutions/tree/master/3785-find-the-number-of-copy-arrays) |
 ## Prefix Sum
 |  |
 | ------- |
 | [2249-count-the-hidden-sequences](https://github.com/iammarvin7/My-LeetCode-Solutions/tree/master/2249-count-the-hidden-sequences) |
+## Math
+|  |
+| ------- |
+| [3785-find-the-number-of-copy-arrays](https://github.com/iammarvin7/My-LeetCode-Solutions/tree/master/3785-find-the-number-of-copy-arrays) |
 <!---LeetCode Topics End-->
