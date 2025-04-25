@@ -42,8 +42,3 @@
 | ------- |
 | [3634-find-mirror-score-of-a-string](https://github.com/iammarvin7/My-LeetCode-Solutions/tree/master/3634-find-mirror-score-of-a-string) |
 <!---LeetCode Topics End-->
-
-
-
-
-![LeetCode Stats](https://leetcard.jacoblin.cool/Marvin077.png)
