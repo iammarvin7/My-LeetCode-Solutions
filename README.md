@@ -1,7 +1,10 @@
 # My-LeetCode-Solutions
-A collection of LeetCode questions to ace the coding interview! - Created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)
 
 <!---LeetCode Topics Start-->
+
+# LeetCode Stats
+![LeetCode Stats](https://leetcard.jacoblin.cool/Marvin077?theme=forest&font=Noto%20Serif%20Ethiopic&ext=heatmap)
+
 # LeetCode Topics
 ## String
 |  |
