@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2249-count-the-hidden-sequences](https://github.com/iammarvin7/My-LeetCode-Solutions/tree/master/2249-count-the-hidden-sequences) |
+| [3712-minimum-cost-to-make-arrays-identical](https://github.com/iammarvin7/My-LeetCode-Solutions/tree/master/3712-minimum-cost-to-make-arrays-identical) |
 | [3785-find-the-number-of-copy-arrays](https://github.com/iammarvin7/My-LeetCode-Solutions/tree/master/3785-find-the-number-of-copy-arrays) |
 ## Prefix Sum
 |  |
@@ -20,4 +21,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3785-find-the-number-of-copy-arrays](https://github.com/iammarvin7/My-LeetCode-Solutions/tree/master/3785-find-the-number-of-copy-arrays) |
+## Greedy
+|  |
+| ------- |
+| [3712-minimum-cost-to-make-arrays-identical](https://github.com/iammarvin7/My-LeetCode-Solutions/tree/master/3712-minimum-cost-to-make-arrays-identical) |
+## Sorting
+|  |
+| ------- |
+| [3712-minimum-cost-to-make-arrays-identical](https://github.com/iammarvin7/My-LeetCode-Solutions/tree/master/3712-minimum-cost-to-make-arrays-identical) |
 <!---LeetCode Topics End-->
