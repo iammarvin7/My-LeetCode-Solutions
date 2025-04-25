@@ -1,5 +1,5 @@
 # LeetCode Stats
-![LeetCode Stats](https://leetcard.jacoblin.cool/Marvin077?width=800&height=500&theme=forest&font=Noto%20Serif%20Ethiopic&ext=heatmap)
+![LeetCode Stats](https://leetcard.jacoblin.cool/Marvin077?theme=forest&font=Noto%20Serif%20Ethiopic&ext=heatmap)
 
 # LeetCode Topics
 ## String
