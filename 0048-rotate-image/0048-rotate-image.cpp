@@ -1,6 +1,7 @@
 class Solution {
 public:
     void rotate(vector<vector<int>>& matrix) {
+        //Transpose (rows become cols) and then mirror the matrix = 90 deg rotation
         int n = matrix.size();
         //transpose
         for(int i = 0; i < n-1; ++i){
