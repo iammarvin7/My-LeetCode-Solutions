@@ -2,31 +2,19 @@ class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
         sort(intervals.begin(), intervals.end());
-        if (intervals.size() == 1) return intervals;
-
-        vector<vector<int>> result; //ans matrix
-
-        int i = 0;
         
-        while(i < intervals.size()){
-            vector<int> curr = intervals[i];
+        vector<vector<int>> result; //ans matrix
+        int n = intervals.size();
 
-            int j = i+1;
-
-            while(j < intervals.size() && curr[1] >= intervals[j][0]){
-                int start = min(curr[0], intervals[j][0]);
-                int end = max(curr[1], intervals[j][1]);
-
-                curr = {start, end};
-                i++;
-                j++;
+        for(int i = 0; i < n; ++i){
+            if(result.empty() || intervals[i][0] > result.back()[1]){
+                result.push_back(intervals[i]);
             }
-            result.push_back(curr);
-            i++;
-
+            else{
+                result.back()[1] = max(intervals[i][1], result.back()[1]);
+            }
         }
-        return result;
-       
+       return result;
 
     }
 };
