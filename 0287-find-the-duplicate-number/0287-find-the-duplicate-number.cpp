@@ -1,17 +1,13 @@
 class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
-        unordered_set<int> all_nums;
-        int ans = 0;
-        for(int i = 0; i < nums.size(); ++i){
-            if(all_nums.count(nums[i])){
-                ans = nums[i];
-                break;
+        unordered_set<int> seen;
+        for(int num: nums){
+            if(seen.count(num)){
+                return num;
             }    
-            else{
-                all_nums.insert(nums[i]);
-            }
+            seen.insert(num);
         }
-        return ans;
+        return -1;
     }
 };
