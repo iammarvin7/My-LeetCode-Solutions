@@ -14,7 +14,7 @@ public:
                 result.back()[1] = max(intervals[i][1], result.back()[1]);
             }
         }
-       return result;
+        return result;
 
     }
 };
