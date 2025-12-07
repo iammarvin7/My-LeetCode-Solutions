@@ -2,25 +2,19 @@ class Solution {
 public:
     vector<int> findMissingAndRepeatedValues(vector<vector<int>>& grid) {
         int n = grid.size();
-        unordered_set<int> seen;
-        
-        int repeat = 0;
-        int missing = 0;
-        for(int i = 1; i <= n*n; ++i){
-            seen.insert(i);
-        }
-
+        int size = n*n;
+        vector<int> ans(2, 0);
+        vector<int> nums(size+1, 0);
         for(int i = 0; i < n; ++i){
             for(int j = 0; j < n; ++j){
-                if(seen.count(grid[i][j])){
-                    seen.erase(grid[i][j]);
-                }
-                else{
-                    repeat = grid[i][j];
-                }
+                nums[grid[i][j]]++;
             }
         }
-        missing = *seen.begin();
-        return {repeat, missing};
+
+        for(int i = 1; i <= size; ++i){
+            if(nums[i] == 2) ans[0] = i;
+            if(nums[i] == 0) ans[1] = i;
+        }
+        return ans;
     }
 };
