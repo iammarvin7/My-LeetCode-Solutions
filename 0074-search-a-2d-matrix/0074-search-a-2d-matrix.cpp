@@ -3,14 +3,20 @@ public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
         int m = matrix.size();
         int n = matrix[0].size();
-        
-        for(int i = 0; i < m; ++i){
-            if(target >= matrix[i][0] && target <= matrix[i][n-1]){
-                for(int j = 0; j < n; ++j){
-                    if(matrix[i][j] == target) return true;
-                }
+        int s = 0, e = (n*m -1);
+
+        while(s <= e){
+            int mid = e - (e-s)/2;
+            int row = mid/n, col = mid%n;
+            if (matrix[row][col]==target) return true;
+            if(matrix[row][col] > target){
+                e = mid-1;
+            }
+            else{
+                s = mid+1;
             }
         }
+
         return false;
     }
 };
